@@ -134,6 +134,13 @@ text, audio, video = preprocess(input_data)
 prediction = model.predict(text, audio, video)
 print(f"Predicted emotion: {prediction}")
 ```
+### Pre-trained Model
+
+You can download our pre-trained model checkpoint from the following Google Drive link:
+
+[Download Pre-trained Model](https://drive.google.com/drive/folders/1m23dhVmHV6o7zT3ltHukS3MufyT2bRgP?usp=sharing)
+
+This checkpoint can be used for inference as demonstrated in the [Inference](#inference) section.
 
 ## 🔬 Methodology
 
